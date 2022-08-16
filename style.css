@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Source+Code+Pro:ital,wght@1,200;1,300&display=swap');
+
+/* Montydiwan@1000 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.45) 100%);
+    -webkit-backdrop-filter: saturate(3);
+    backdrop-filter: saturate(3);
+} */
+
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(223, 218, 218);
+    font-family: 'Fira Sans', sans-serif;
+    height: 126vh;
+    /* width: 60px; */
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*  background-color: yellow;  */
+    width: 90vw;
+    /* padding: 25px; */
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /*    background-color: rgb(202, 9, 128);  */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 20px;
+    padding: 7px 13px;
+    /* margin: -51px 20px 36px 20px; */
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform {
+    padding: 0 34px;
+    /* padding-top: 144px; */
+    font-family: 'Fira Sans', sans-serif;
+    margin: 88px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 12px 0; */
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form {
+    margin: 0 40px;
+}
+
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogContainer {
+    margin: 88px;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.intro {
+    margin: 88px;
+}
+
+.intro h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px 60px;
+    font-size: 35px;
+}
+
+.intro p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+    font-weight: 600;
+}
+
+.skillcontainer {
+    padding: 50px 100px;
+    font-size: 18px;
+}
+
+.skillcontainer img {
+    width: 30px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skill {
+    width: 265px;
+    height: 10px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.hundered {
+    width: 400px;
+    background-color: blueviolet;
+}
+
+.fifty {
+    width: 200px;
+    background-color: aqua;
+}
+
+.t5 {
+    width: 100px;
+    background-color: yellow;
+}
+
+
+.self {
+    margin: 88px;
+}
+
+.self h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px 60px;
+    font-size: 40px;
+}
+
+.self p {
+    font-family: 'Source Code Pro', monospace;
+    margin: 30px 8px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross {
+    margin-left: 185px;
+    margin-top: 10px;
+}
+
+
+.edu {
+    margin: 75px 100px;
+    padding: 9px;
+    font-size: 27px;
+}
+
+.colg {
+    margin: 0 25px;
+    padding: 15px;
+}
+
+.inst {
+    color: coral;
+}
+
+.mark {
+    color: darkseagreen;
+}
+
+
+.org {
+    padding: 40px 60px;
+    margin: 40px 60px;
+    font-size: 22px;
+}
+
+.niza {
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.pos {
+    color: #ed890e;
+}
+
+.act {
+    padding: 40px 60px;
+    margin: 40px 60px;
+    font-size: 22px;
+}
+
+.even {
+    margin: 15px 50px;
+    color: #f56d3b;
+}
+
+
+.prj h1 {
+    margin: 80px 120px;
+    font-size: 43px;
+}
+
+.jec {
+    margin: -50px 150px;
+    font-size: 20px;
+}
+
+
+.cts {
+    margin: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cts a {
+    text-decoration: none;
+}
+
+.cts a:link {
+    color: rebeccapurple;
+}
+
+.cts a:hover {
+    color: rgb(184, 14, 203);
+}
+
+.cts a:visited {
+    background-color: blue;
+}
+
+
+.cour {
+    font-size: 22px;
+    margin: 70px 100px;
+}
+
+.ses {
+    margin: 40px 50px;
+}
+
+#tab th {
+    /* border: 1px solid; */
+    width: 35%;
+    color: rgb(202 9 128);
+    font-style: italic;
+    font-size: 32px;
+    margin: 50px 80px;
+    background-color: antiquewhite;
+}
+
+#tab {
+    width: 92%;
+    /* color: rgb(240, 139, 15); */
+    font-size: 22px;
+    margin: 40px 130px;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+.ses a:hover {
+    color: rgb(16, 209, 187);
+}
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #0072b1;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.fa-instagram {
+    background: #c41351;
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.social {
+    margin-left: 1070px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 1410px) {
+    .social {
+        margin-left: 700px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 540px) {
+    .devPic {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .hundered {
+        width: 150px;
+    }
+
+    .fifty {
+        width: 75px;
+
+    }
+
+    .t5 {
+        width: 37px;
+
+    }
+}
+
+@media (max-width: 1015px) {
+    * {
+        /* background-color: red; */
+    }
+
+    .buttons {
+        font-size: 6px;
+    }
+
+    .devInfo {
+        font-size: 10px;
+    }
+
+    .intro,
+    .blogContainer,
+    .contactform {
+        margin: 50px 8px;
+    }
+
+    .social {
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+
+
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
